@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  background-color: black;
+  color: white;
+}
+
+a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+code {
+  background-color: #6e768166;
+  border-radius: 4px;
+  padding: 0 4px;
+}
+h1,h2,h3,h4 {
+  border-bottom: 1px solid gray;
+  margin: 16px 0px;
+  padding-bottom: 12px;
+}
+.reading-word {
+  background-color: rgb(255, 165, 246) !important;
+  color: black;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  max-width: 600px;
+  padding: 32px;
+  margin: auto;
+}
