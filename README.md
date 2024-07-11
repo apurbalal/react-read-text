@@ -4,8 +4,7 @@ Reads the text content of the given document id. Here's an example: [https://rea
 ## Feature highlight
 | Video |
 | --- |
-|<video autoplay loop style="height: auto; position:absolute; z-index: -1;" src="https://github.com/apurbalal/react-read-text/assets/9425881/08787e93-12a7-4b3f-99d5-7a083f7dd011" />|
-
+|<video autoplay loop style="height: auto; position:absolute; z-index: -1;" src="https://github.com/user-attachments/assets/59821490-826b-410c-b737-3b85eb694fa2" />|
 
 ## How to use it
 #### Install
