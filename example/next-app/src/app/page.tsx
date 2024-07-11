@@ -1,10 +1,16 @@
 import dynamic from "next/dynamic";
 import Markdown from "react-markdown";
-import remarkGfm from 'remark-gfm';
+import remarkGfm from "remark-gfm";
 
-const DynamicReadingController = dynamic(() => import("@/component/ReadingController").then(mod => mod.ReadingController), {
-  ssr: false,
-});
+const DynamicReadingController = dynamic(
+  () =>
+    import("@/component/ReadingController").then(
+      (mod) => mod.ReadingController,
+    ),
+  {
+    ssr: false,
+  },
+);
 
 const markdown = `
   # A demo of \`react-markdown\`

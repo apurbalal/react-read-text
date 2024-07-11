@@ -2,22 +2,23 @@
 import { useTextReading } from "react-read-text";
 
 export const ReadingController = () => {
-  const { handleReading, handleStopReading, reading, available } = useTextReading();
+  const { handleReading, handleStopReading, reading, available } =
+    useTextReading();
   const handleClick = () => {
     if (reading) {
       handleStopReading();
     } else {
-      handleReading('read-block');
+      handleReading("read-block");
     }
-  }
+  };
 
   return (
     <>
-      {available &&
+      {available && (
         <button onClick={handleClick}>
-          {reading ? 'Stop reading' : 'Start reading'}
+          {reading ? "Stop reading" : "Start reading"}
         </button>
-      }
+      )}
     </>
   );
-}
+};
