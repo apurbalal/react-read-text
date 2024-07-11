@@ -1,5 +1,5 @@
 ## react-read-text
-Reads the text content of the given document id. Here's how to use it in your react project.
+Reads the text content of the given document id. Here's an example: [https://react-read-text.vercel.app/](https://react-read-text.vercel.app/)
 
 ## Feature highlight
 | Video |
@@ -34,3 +34,6 @@ yarn add react-read-text
 
 #### Style
 You can customize the style of reading word by css classname `reading-word`. Add it to your style sheet and add styles to it.
+
+## Example
+View the example code inside `/example` folder.
