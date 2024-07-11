@@ -32,3 +32,5 @@ yarn add react-read-text
 | handleStopReading | () => void | Stop reading |
 | available | Boolean | Reading is supported or not in the device |
 
+#### Style
+You can customize the style of reading word by css classname `reading-word`. Add it to your style sheet and add styles to it.
