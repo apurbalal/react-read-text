@@ -5,7 +5,10 @@
   "main": "dist/cjs/index.js",
   "types": "dist/types/index.d.ts",
   "module": "dist/esm/index.js",
-  "repository": "https://github.com/apurbalal/react-read-text",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/apurbalal/react-read-text"
+  },
   "scripts": {
     "build": "rollup -c",
     "format": "prettier . --write"
