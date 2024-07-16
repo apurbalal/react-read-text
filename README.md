@@ -2,7 +2,7 @@
 Reads the text content of the given document id. Here's an example, open and click on "Start reading": [https://react-read-text.vercel.app/](https://react-read-text.vercel.app/)
 
 ## Feature highlight
-<video autoplay loop style="height: auto; position:absolute; z-index: -1;" src="https://github.com/apurbalal/react-read-text/assets/9425881/08787e93-12a7-4b3f-99d5-7a083f7dd011" />
+<video autoplay loop style="height: auto; position:absolute; z-index: -1;" src="https://github.com/apurbalal/react-read-text/assets/9425881/08787e93-12a7-4b3f-99d5-7a083f7dd011"></video>
 
 ## How to use it
 #### Install
