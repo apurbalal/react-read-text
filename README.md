@@ -1,10 +1,8 @@
 ## react-read-text
-Reads the text content of the given document id. Here's an example: [https://react-read-text.vercel.app/](https://react-read-text.vercel.app/)
+Reads the text content of the given document id. Here's an example, open and click on "Start reading": [https://react-read-text.vercel.app/](https://react-read-text.vercel.app/)
 
 ## Feature highlight
-| Video |
-| --- |
-|<video autoplay loop style="height: auto; position:absolute; z-index: -1;" src="https://github.com/user-attachments/assets/59821490-826b-410c-b737-3b85eb694fa2" />|
+<video autoplay loop style="height: auto; position:absolute; z-index: -1;" src="https://github.com/apurbalal/react-read-text/assets/9425881/08787e93-12a7-4b3f-99d5-7a083f7dd011" />
 
 ## How to use it
 #### Install

@@ -79,8 +79,6 @@ export function Reader({
           highlightedNode = document.createElement("span");
           highlightedNode.textContent = textContent;
 
-          array[0].parent?.replaceChild(highlightedNode, array[0].node);
-
           if (array[0].node.textContent?.trim().includes(" ")) {
             utterance.onboundary = (event) => {
               if (event.name === "word") {
@@ -140,6 +138,7 @@ export function Reader({
             highlightedNode.textContent = textContent;
             highlightedNode.className = "reading-word";
           }
+          array[0].parent?.replaceChild(highlightedNode, array[0].node);
           speechSynthesis.speak(utterance);
         }
 

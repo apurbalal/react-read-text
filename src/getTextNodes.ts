@@ -3,7 +3,7 @@ export const getTextNodes = (id: string, excludeChildIds?: string[]) => {
   const array = new Array<{ node: Node; parent: HTMLElement | null }>();
 
   const recursivelyFillSetWithTextNodes = (node: Node | null) => {
-    if (node?.nodeType === Node.TEXT_NODE) {
+    if (node?.nodeType === Node.TEXT_NODE && (node.textContent?.trim().length ?? 0) > 0) {
       array.push({ node, parent: node.parentElement });
     } else {
       node?.childNodes.forEach((each) => {
