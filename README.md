@@ -18,7 +18,7 @@ yarn add react-read-text
     handleStopReading,
     available,
   } = useTextReading({
-    excludeChildIds: ["qset-code-block"],
+    excludeChildIds: ["code-block"],
   });
 ```
 | prop | Type | Meanining |
