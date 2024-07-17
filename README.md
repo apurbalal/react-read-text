@@ -1,5 +1,5 @@
 ## react-read-text
-Audibly reads the text content of the given parent document and it's child. Here's an example, open and click on "Start reading": [https://react-read-text.vercel.app/](https://react-read-text.vercel.app/)
+Audibly reads the text content of the given parent dom and its child nodes. Here's an example, open and click on "Start reading": [https://react-read-text.vercel.app/](https://react-read-text.vercel.app/)
 
 ## Feature highlight
 <video autoplay loop style="height: auto; position:absolute; z-index: -1;" src="https://github.com/user-attachments/assets/00ee1266-5e74-4f69-9aee-fc733c5005a0"></video>
